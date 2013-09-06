@@ -92,7 +92,7 @@ else
 fi
 
 echo
-echo "Check Leiningen (lein-exec) plugin..."
+echo "Check lein-exec plugin..."
 if [ -f ~/.lein/profiles.clj ]; then
   lein_plugin=`cat ~/.lein/profiles.clj | grep -P '\[\[lein-exec "\d.\d.\d"\]\]'` > /dev/null
   if [ -n "$lein_plugin" ]; then
