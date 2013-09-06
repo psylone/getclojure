@@ -39,7 +39,7 @@ install_java() {
   echo "DONE"
   echo
   echo "Install Java..."
-  sudo apt-get install oracle-java7-instller > /dev/null
+  sudo apt-get install oracle-java7-installer > /dev/null
   echo "DONE"
 }
 
