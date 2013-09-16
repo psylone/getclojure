@@ -1,6 +1,6 @@
 # Overview #
 
-This shell script provides the easiest way to get all necessary tools to run `\*.clj` files on Ubuntu Linux. It installs:
+This shell script provides the easiest way to get all necessary tools to run `*.clj` files on Ubuntu Linux. It installs:
 
 - Oracle Java 7
 - [Leiningen](http://leiningen.org/)
@@ -19,7 +19,12 @@ Supported following Ubuntu versions:
 
 Use this command to download and run the script:
 
-    wget -O /tmp/getclojure.sh https://raw.github.com/psylone/getclojure/master/getclojure.sh && sudo sh /tmp/getclojure.sh
+    wget -O /tmp/getclojure.sh https://raw.github.com/psylone/getclojure/master/getclojure.sh \
+    && sudo sh /tmp/getclojure.sh
+
+After that you'll be able to run any `*.clj` file with this command:
+
+    lein exec code.clj
 
 # Feedback #
 
